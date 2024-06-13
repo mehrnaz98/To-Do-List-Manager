@@ -14,6 +14,21 @@ This project is my final project for the [Code in Place](https://codeinplace.sta
 - **Remove Tasks**: Remove tasks when they're done.
 - **Simple and Intuitive**: Easy-to-use interface for hassle-free task management.
 
+## Getting Started
+
+To get started with the To-Do List Manager, simply follow these steps:
+
+1. Clone the Repository: Clone this repository to your local machine.
+
+   ```bash
+   git clone https://github.com/mehrnaz98/To-Do-List-Manager.git
+
+   ```
+
+2. Run the Script: Run the Python script todo_list_manager.py to start managing your tasks.
+
+python todo_list_manager.py
+
 Thank you for checking out the To-Do List Manager project. I hope it helps you stay organized and productive! Happy task managing! 🚀
 
 Mehrnaz Eftekhari
