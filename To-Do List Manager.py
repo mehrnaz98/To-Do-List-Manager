@@ -18,6 +18,11 @@ def view_tasks(tasks):
 def mark_completed(tasks):
     view_tasks(tasks)
     index = int(input("Enter the task number to mark as completed: ")) - 1
+    if 0 <= index < len(tasks):
+        tasks[index]["completed"] = True
+        print("Task marked as completed!")
+    else:
+        print("Invalid task number!")
 
 # Main function
 def main():
