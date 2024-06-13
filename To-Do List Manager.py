@@ -10,6 +10,9 @@ def view_tasks(tasks):
         print("Your to-do list is empty!")
     else:
         print("Your to-do list:")
+        for index, task in enumerate(tasks, start=1):
+            status = " (Completed)" if task["completed"] else ""
+            print(f"{index}. {task['task']}{status}")
 
 # Main function
 def main():
