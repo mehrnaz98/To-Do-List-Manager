@@ -14,6 +14,11 @@ def view_tasks(tasks):
             status = " (Completed)" if task["completed"] else ""
             print(f"{index}. {task['task']}{status}")
 
+# Function to mark task as completed
+def mark_completed(tasks):
+    view_tasks(tasks)
+    task_number = int(input("Enter the task number to mark as completed: "))
+
 # Main function
 def main():
     tasks = []
