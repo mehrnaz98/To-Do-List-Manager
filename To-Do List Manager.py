@@ -4,6 +4,12 @@ def add_task(tasks):
     tasks.append({"task": task, "completed": False})
     print("Task added successfully!")
 
+# Function to view tasks
+def view_tasks(tasks):
+    if not tasks:
+        print("Your to-do list is empty!")
+    else:
+        print("Your to-do list:")
 
 # Main function
 def main():
