@@ -28,7 +28,11 @@ def mark_completed(tasks):
 def remove_task(tasks):
     view_tasks(tasks)
     index = int(input("Enter the task number to remove: ")) - 1
-
+    if 0 <= index < len(tasks):
+        del tasks[index]
+        print("Task removed successfully!")
+    else:
+        print("Invalid task number!")
 
 # Main function
 def main():
