@@ -17,7 +17,7 @@ def view_tasks(tasks):
 # Function to mark task as completed
 def mark_completed(tasks):
     view_tasks(tasks)
-    task_number = int(input("Enter the task number to mark as completed: "))
+    index = int(input("Enter the task number to mark as completed: ")) - 1
 
 # Main function
 def main():
