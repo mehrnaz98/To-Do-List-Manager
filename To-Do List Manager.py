@@ -1,3 +1,10 @@
+# Function to add task
+def add_task(tasks):
+    task = input("Enter the task: ")
+    tasks.append({"task": task, "completed": False})
+    print("Task added successfully!")
+
+
 # Main function
 def main():
     tasks = []
