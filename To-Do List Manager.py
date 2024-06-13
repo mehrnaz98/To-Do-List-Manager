@@ -27,6 +27,7 @@ def mark_completed(tasks):
 # Function to remove task
 def remove_task(tasks):
     view_tasks(tasks)
+    index = int(input("Enter the task number to remove: ")) - 1
 
 
 # Main function
