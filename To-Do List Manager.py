@@ -24,6 +24,11 @@ def mark_completed(tasks):
     else:
         print("Invalid task number!")
 
+# Function to remove task
+def remove_task(tasks):
+    view_tasks(tasks)
+
+
 # Main function
 def main():
     tasks = []
