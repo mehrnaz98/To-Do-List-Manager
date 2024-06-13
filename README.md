@@ -29,6 +29,10 @@ To get started with the To-Do List Manager, simply follow these steps:
 
 python todo_list_manager.py
 
+3. Interact with the Menu: Once the script is running, follow the on-screen menu to add, view, mark as completed, or remove tasks.
+
+## Thank You!
+
 Thank you for checking out the To-Do List Manager project. I hope it helps you stay organized and productive! Happy task managing! 🚀
 
 Mehrnaz Eftekhari
